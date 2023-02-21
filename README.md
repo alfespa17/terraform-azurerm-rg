@@ -1,14 +1,7 @@
 # terraform-azurerm-rg
-Terraform module to create Azure Resource Groups
+Terraform module to create Azure Resource Groups and one sample azure ad user with contributor access.
 
 ## Parameters
 The module will require the following parameters:
-- name
 - region 
 
-## Output Values
-
-The module will output the following values:
-
-- rg_name
-- rg_location
