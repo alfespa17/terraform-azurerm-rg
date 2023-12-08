@@ -5,12 +5,12 @@ module "sample" {
 }
 
 
-terraform {
-  cloud {
-    organization = "simple"
-    hostname = "8080-azbuilder-terrakube-lgd86vpndpf.ws-us106.gitpod.io"
-    workspaces {
-      name = "samplecloud"
-    }
-  }
-}
+# terraform {
+#  cloud {
+#    organization = "simple"
+#    hostname = "8080-azbuilder-terrakube-lgd86vpndpf.ws-us106.gitpod.io"
+#    workspaces {
+#      name = "samplecloud"
+#    }
+#  }
+# }
